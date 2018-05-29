@@ -1,0 +1,28 @@
+{
+    "name": "simpla-components/str",
+    "description": "strings functions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "robertaodj",
+            "email": "robert.di.jesus@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "^6.5@dev",
+        "icanboogie/inflector": "dev-master"
+    },
+    "autoload" : {
+	   "psr-4": {
+	    "Simpla\\": [ 
+                "src/Simpla" 
+            ]
+       }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Simpla\\": "tests/Simpla"
+        }
+    }    
+}
